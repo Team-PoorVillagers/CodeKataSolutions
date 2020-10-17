@@ -122,6 +122,16 @@ barter and cashier discretion, and last but very important, ease of system maint
 
 ![image](images/kata01.png)
 
+
+Q - How are we gonna support discount or specifc cases(Buy 2 Get 1 free) ?
+A - initially calculate the total price, pricing service then uses the logic to give discounts and creates final bill by calling billing service.
+
+Q - How to retrive price in case of refund?
+A - Get Bill details from Billing service and retrive price(to be refunded) from that
+
+Q - How to maintain that stock is not empty?
+A - use count field in metadata table, to find no of items currently in stock, see how many items have specific metadataID in items.
+
 #### Learnings
 
 **Open Close Principle**
