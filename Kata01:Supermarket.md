@@ -120,9 +120,9 @@ product return policies, tax system requirements, i18n, currency granularity and
 fraud detection, forms of payment, 3rd party coupons, forms of POS device, data storage choices,
 barter and cashier discretion, and last but very important, ease of system maintenance and modification.
 
+![image](images/kata01.png)
 
-
-Learnings
+#### Learnings
 
 **Open Close Principle**
 A class is closed, since it may be compiled, stored in a library, baselined, and used by client classes. But it is also open, since any new class may use it as parent, adding new features. When a descendant class is defined, there is no need to change the original or to disturb its clients.
