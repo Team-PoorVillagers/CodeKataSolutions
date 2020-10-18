@@ -120,8 +120,7 @@ product return policies, tax system requirements, i18n, currency granularity and
 fraud detection, forms of payment, 3rd party coupons, forms of POS device, data storage choices,
 barter and cashier discretion, and last but very important, ease of system maintenance and modification.
 
-![image](images/kata01.png)
-
+![image](kata01.png)
 
 Q - How are we gonna support discount or specifc cases(Buy 2 Get 1 free) ?
 A - initially calculate the total price, pricing service then uses the logic to give discounts and creates final bill by calling billing service.
